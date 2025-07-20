@@ -8,8 +8,6 @@ import { useSelector } from 'react-redux'
 import MiniCalendar from './MiniCalendar'
 
 function Calender() {
-    const state = useSelector(state=>state)
-    console.log(state)
     return (
         <div className="min-h-screen bg-gray-50">
             <Heading />
